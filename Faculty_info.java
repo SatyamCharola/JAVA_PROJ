@@ -20,6 +20,10 @@ public class Faculty_info{
         hm.put(12,"Mayuri Popat");
         hm.put(13,"Rikita Chokshi");
         System.out.println("ID:\t\tFACULTY");
+
+
+
+        
         for (Map.Entry<Integer,String> e:hm.entrySet()) {
             System.out.print(e.getKey()+"\t\t");
             System.out.print(e.getValue()+"\n");
